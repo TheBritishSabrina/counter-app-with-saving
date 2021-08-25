@@ -1,8 +1,7 @@
-import EmojiPicker from "./components/EmojiPicker";
-import NumberPicker from "./components/NumberPicker";
+import EmojiPickerSingleUseState from "./components/EmojiPickerSingleUseState";
 
 function App(): JSX.Element {
-  return <EmojiPicker />;
+  return <EmojiPickerSingleUseState />;
 }
 
 export default App;
